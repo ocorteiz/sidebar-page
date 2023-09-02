@@ -107,6 +107,11 @@ nav:hover .sidebar-top div {
     border-radius: 10px;
 }
 
+.ativo {
+    background-color: var(--nav-color-dark);
+    border-radius: 10px;
+}
+
 h4.strutcs {
     margin: 2em 0em;
     font-weight: 500;
@@ -146,3 +151,7 @@ body.heave .sidebar-top div {
     right: -4em;
 }
 
+body.heave .ativo {
+    background-color: var(--nav-color-dark);
+    border-radius: 0;
+}
